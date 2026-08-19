@@ -22,6 +22,17 @@
 
 Learn Harness Engineering は、AIコーディングエージェントのエンジニアリングに特化したコースです。業界最先端の Harness Engineering の理論と実践を深く研究し、統合しました。主な参考文献は以下の通りです：
 
+> **🆕 2026年8月更新：最先端Harness設計の分解解説**——4つの分解解説を含む新セクション：
+>
+> - **新セクション** [最先端Harness設計の分解解説](../../docs/ja/harness-designs/index.md)：本コースの5つのサブシステムからなるフレームワーク（指示、ツール、環境、状態、フィードバック）を適用し、4つの最先端プロダクトが実際のharnessをどのように構築しているかをリバースエンジニアリングする。
+> - **Pi** [Piがharnessを構築する方法](../../docs/ja/harness-designs/pi/index.md)：最小限のカーネル、プログラム可能な拡張、そして「Piに作りたいものを頼む」を支えるコンテキストエンジニアリング。
+> - **Claude Code** [Claude Codeがharnessを構築する方法](../../docs/ja/harness-designs/claude-code/index.md)：4層のメモリ、5段階のコンパクション、フック、そしてsub-agentの分離。
+> - **Codex** [Codexがharnessを構築する方法](../../docs/ja/harness-designs/codex/index.md)：信頼できる唯一の情報源としてのリポジトリ、ディレクトリページとしてのAGENTS.md、そしてworktreeの分離。
+> - **DeepSeek** [DeepSeekがharnessを構築する方法](../../docs/ja/harness-designs/deepseek/index.md)：「すべてはプラグイン」、能力の継ぎ目、そしてイベントパイプライン。
+> - **全15言語**：サポートされているすべての言語で完全な翻訳を提供。
+>
+> **コアとなる見解：** 本コースはフレームワークを提供する。これらの分解解説は、同じ原則が実際の本番環境のharnessでどのように機能するかを示す。
+>
 > **🆕 2026年8月更新：グラフエンジニアリング（Graph Engineering）**——講義1回 + プロジェクト1つを追加：
 >
 > - **第14回** [単一ループからグラフエンジニアリングへ](../../docs/ja/lectures/lecture-14-graph-engineering/index.md)：なぜ単一ループの先に必ずグラフが生まれるのか——4層の重ね合わせ（prompt → context → loop → graph）とharnessの位置、グラフの4つの部品（ノード、エッジ、共有状態、ルーティング）、loop内のチェックポイントが規模上の3つの構造的失敗（Goodhart、上方向の失明、衝突）を救えない理由、フレームワーク非依存の6ステップで最初のグラフを構築する手順、GraphとWorkflowの違い、アンカー、公開前 vs 公開後のオープンソースプロジェクトの現状、オーケストレーション税、そして本当に図を描く価値があるとき。
@@ -615,12 +626,6 @@ learn-harness-engineering/
 [![Hands-on Modern RL](https://img.shields.io/badge/HANDS--ON_MODERN_RL-0052cc?style=for-the-badge)](https://github.com/walkinglabs/hands-on-modern-rl)
 
 **Hands-on Modern RL**：基本的な強化学習の概念から LLM アライメント、RLVR、高度なエージェントシステムまでをつなぐ、オープンソースのハンズオンカリキュラム。
-
----
-
-## スター履歴
-
-[![Star History Chart](https://api.star-history.com/svg?repos=walkinglabs/learn-harness-engineering&type=date&legend=top-left)](https://www.star-history.com/#walkinglabs/learn-harness-engineering&type=date&legend=top-left)
 
 ---
 

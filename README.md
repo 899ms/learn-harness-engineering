@@ -25,12 +25,27 @@
   <img src="https://img.shields.io/badge/Projects-8-green?style=flat-square" alt="8 Projects">
   <img src="https://img.shields.io/badge/Languages-15-yellow?style=flat-square" alt="15 Languages">
   <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" alt="MIT License">
-  <a href="https://discord.gg/XU7DQmpqk"><img src="https://img.shields.io/badge/Discord-Join_Community-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Join the Discord community"></a>
+  <a href="https://github.com/walkinglabs"><img src="https://img.shields.io/badge/Discord-Join_Community-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Join the Discord community"></a>
 </p>
 
 > 🌍 This course is available in **15 languages**: English, 简体中文, 繁體中文, 日本語, 한국어, Español, Français, Русский, Deutsch, العربية, Tiếng Việt, Oʻzbekcha, Türkçe, Portuguese (BR), Українська. Choose your language from the badges above.
 
 ## 🆕 What's New — August 2026
+
+**Frontier Harness Design Breakdowns — new section (4 breakdowns)**
+
+| What | Details |
+|------|---------|
+| **New section** | [Frontier Harness Design Breakdowns](docs/en/harness-designs/index.md) — Apply the course's five-subsystem framework (instructions, tools, environment, state, feedback) to reverse-engineer how four frontier products build real harnesses. |
+| **Pi** | [How Pi builds its harness](docs/en/harness-designs/pi/index.md) — a minimal kernel, programmable expansion, and context engineering behind "ask Pi to build what you want." |
+| **Claude Code** | [How Claude Code builds its harness](docs/en/harness-designs/claude-code/index.md) — four-layer memory, five-level compaction, hooks, and sub-agent isolation. |
+| **Codex** | [How Codex builds its harness](docs/en/harness-designs/codex/index.md) — the repository as source of truth, AGENTS.md as a directory page, and worktree isolation. |
+| **DeepSeek** | [How DeepSeek builds its harness](docs/en/harness-designs/deepseek/index.md) — "everything is a plugin," capability seams, and an event pipeline. |
+| **All 15 languages** | Full translation coverage across all supported languages. |
+
+**Key idea:** The course gives you a framework; these breakdowns show you how the same principles actually play out in production harnesses.
+
+---
 
 **Graph Engineering Update — 1 new lecture, 1 new project**
 
@@ -71,7 +86,7 @@ Learn Harness Engineering is a course dedicated to the engineering of AI coding 
 
 ## Table of Contents
 
-- [🆕 What's New](#-whats-new--july-2026)
+- [🆕 What's New](#-whats-new--august-2026)
 - [✨ Visual Preview](#-visual-preview)
 - [What Harness Engineering Actually Means](#what-harness-engineering-actually-means)
 - [Quick Start: Improve Your Agent Today](#quick-start-improve-your-agent-today)
@@ -666,12 +681,6 @@ Our team has also created other courses! Check them out:
 [![Modern LLM Notebook](https://img.shields.io/badge/MODERN_LLM_NOTEBOOK-0052cc?style=for-the-badge)](https://github.com/walkinglabs/modern-llm-notebook)
 
 **Modern LLM Notebook**: A hands-on course for building modern LLMs from scratch in PyTorch, with 23 runnable Jupyter Notebooks covering tokenizers, attention, MoE, RLHF, inference, evaluation, and distillation.
-
----
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=walkinglabs/learn-harness-engineering&type=date&legend=top-left)](https://www.star-history.com/#walkinglabs/learn-harness-engineering&type=date&legend=top-left)
 
 ---
 

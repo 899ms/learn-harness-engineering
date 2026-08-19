@@ -22,6 +22,17 @@
 
 Learn Harness Engineering 是一门专注于 AI 编程代理工程化的课程。我们深入研究和综合了业界最先进的 Harness Engineering 理论与实践。我们的核心参考资料包括：
 
+> **🆕 2026 年 8 月更新：前沿 Harness 拆解**——新增栏目，包含 4 篇拆解：
+>
+> - **新栏目** [前沿 Harness 拆解](../../docs/zh/harness-designs/index.md)——运用课程的五子系统框架（指令、工具、环境、状态、反馈），逆向拆解四款前沿产品如何构建真实的 Harness。
+> - **Pi** [Pi 如何构建其 Harness](../../docs/zh/harness-designs/pi/index.md)——极简内核、可编程扩展，以及“让 Pi 构建你想要的东西”背后的上下文工程。
+> - **Claude Code** [Claude Code 如何构建其 Harness](../../docs/zh/harness-designs/claude-code/index.md)——四层记忆、五级压缩、钩子和子代理隔离。
+> - **Codex** [Codex 如何构建其 Harness](../../docs/zh/harness-designs/codex/index.md)——将仓库作为事实来源、将 AGENTS.md 作为目录页，以及 worktree 隔离。
+> - **DeepSeek** [DeepSeek 如何构建其 Harness](../../docs/zh/harness-designs/deepseek/index.md)——“万物皆插件”、能力接缝和事件管线。
+> - **全部 15 种语言**——完整覆盖所有受支持语言的翻译。
+>
+> **核心观点：** 课程为你提供框架；这些拆解则展示相同的原则如何在生产级 Harness 中真正落地。
+>
 > **🆕 2026 年 8 月更新：图工程（Graph Engineering）**——新增 1 讲 + 1 个项目：
 >
 > - **第十四讲** [从单循环到图工程](../../docs/zh/lectures/lecture-14-graph-engineering/index.md)：为什么单循环必然长成图——四层叠加（prompt → context → loop → graph）及 harness 在其中的位置、图的四个零件（节点、边、共享状态、路由）、为什么 loop 内的检查点救不了规模上的三种结构性失败（Goodhart、向上失明、冲突）、框架无关的六步构建你的第一张图、Graph 与 Workflow 的区别、锚、发布前 vs 发布后的开源项目现状、编排税，以及什么时候真的值得画图。
@@ -615,12 +626,6 @@ learn-harness-engineering/
 [![Hands-on Modern RL](https://img.shields.io/badge/HANDS--ON_MODERN_RL-0052cc?style=for-the-badge)](https://github.com/walkinglabs/hands-on-modern-rl)
 
 **Hands-on Modern RL**：一个开源的动手课程，从基础强化学习概念到 LLM 对齐、RLVR 和高级 Agentic 系统，架起理论与实践的桥梁。
-
----
-
-## Star 历史
-
-[![Star History Chart](https://api.star-history.com/svg?repos=walkinglabs/learn-harness-engineering&type=date&legend=top-left)](https://www.star-history.com/#walkinglabs/learn-harness-engineering&type=date&legend=top-left)
 
 ---
 

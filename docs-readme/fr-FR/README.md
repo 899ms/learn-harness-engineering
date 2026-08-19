@@ -22,6 +22,17 @@
 
 Learn Harness Engineering est un cours dédié à l'ingénierie des agents de codage IA. Nous avons étudié et synthétisé en profondeur les théories et pratiques les plus avancées en matière de Harness Engineering dans l'industrie. Nos références principales incluent :
 
+> **🆕 Mise à jour d'août 2026 : Décryptages de la conception des harnesses de pointe** — une nouvelle section avec 4 décryptages :
+>
+> - **Nouvelle section** [Décryptages de la conception des harnesses de pointe](../../docs/fr/harness-designs/index.md) — appliquez le cadre à cinq sous-systèmes du cours (instructions, outils, environnement, état, feedback) pour rétroconcevoir la manière dont quatre produits de pointe construisent de véritables harnesses.
+> - **Pi** [Comment Pi construit son harness](../../docs/fr/harness-designs/pi/index.md) — un noyau minimal, une extension programmable et l'ingénierie du contexte derrière « demandez à Pi de construire ce que vous voulez ».
+> - **Claude Code** [Comment Claude Code construit son harness](../../docs/fr/harness-designs/claude-code/index.md) — une mémoire à quatre couches, une compaction à cinq niveaux, des hooks et l'isolation des sous-agents.
+> - **Codex** [Comment Codex construit son harness](../../docs/fr/harness-designs/codex/index.md) — le dépôt comme source de vérité, AGENTS.md comme page de répertoire et l'isolation par worktree.
+> - **DeepSeek** [Comment DeepSeek construit son harness](../../docs/fr/harness-designs/deepseek/index.md) — « tout est un plugin », les frontières de capacités et un pipeline d'événements.
+> - **Les 15 langues** — une couverture de traduction complète dans toutes les langues prises en charge.
+>
+> **Idée centrale :** Le cours vous fournit un cadre ; ces décryptages vous montrent comment les mêmes principes se concrétisent dans des harnesses de production.
+>
 > **🆕 Mise à jour d'août 2026 : Ingénierie des graphes (Graph Engineering)** — 1 nouveau cours + 1 nouveau projet :
 >
 > - **Cours 14** [Des boucles simples à l'ingénierie des graphes](../../docs/fr/lectures/lecture-14-graph-engineering/index.md) : pourquoi une boucle unique devient naturellement un graphe — la pile à quatre couches (prompt → context → loop → graph) et la place du harness dans celle-ci, les quatre composants d'un graphe (nœuds, arêtes, état partagé, routage), pourquoi les points de contrôle dans un loop ne sauvent pas les trois échecs structurels qui surviennent à l'échelle (Goodhart, cécité vers le haut, conflit), les six étapes indépendantes de tout framework pour construire votre premier graphe, la différence entre Graph et Workflow, les ancres, l'état des projets open source avant vs après la publication, la taxe d'orchestration, et le moment où il vaut réellement la peine de dessiner un graphe.
@@ -618,12 +629,6 @@ Notre équipe a également créé d'autres cours ! Découvrez-les :
 [![Hands-on Modern RL](https://img.shields.io/badge/HANDS--ON_MODERN_RL-0052cc?style=for-the-badge)](https://github.com/walkinglabs/hands-on-modern-rl)
 
 **Hands-on Modern RL** : Un programme pratique et open source qui comble le fossé entre les concepts de base de l'apprentissage par renforcement et l'alignement des LLM, le RLVR et les systèmes agentiques avancés.
-
----
-
-## Historique des Étoiles
-
-[![Star History Chart](https://api.star-history.com/svg?repos=walkinglabs/learn-harness-engineering&type=date&legend=top-left)](https://www.star-history.com/#walkinglabs/learn-harness-engineering&type=date&legend=top-left)
 
 ---
 

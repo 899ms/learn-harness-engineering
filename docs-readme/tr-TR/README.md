@@ -22,6 +22,17 @@
 
 Learn Harness Engineering, yapay zeka kod yazma ajanlarının mühendisliğine adanmış bir kurstur. Sektördeki en gelişmiş Harness Engineering teorilerini ve uygulamalarını derinlemesine inceleyip sentezledik. Temel referanslarımız:
 
+> **🆕 2026 Ağustos Güncellemesi: Öncü Harness Tasarımı İncelemeleri** — 4 inceleme içeren yeni bölüm:
+>
+> - **Yeni bölüm** [Öncü Harness Tasarımı İncelemeleri](../../docs/tr/harness-designs/index.md) — Dört öncü ürünün gerçek harness'ları nasıl oluşturduğunu tersine mühendislikle çözümlemek için kursun beş alt sistemli çerçevesini (talimatlar, araçlar, ortam, durum, geri bildirim) uygulayın.
+> - **Pi** [Pi harness'ını nasıl oluşturuyor](../../docs/tr/harness-designs/pi/index.md) — minimal bir çekirdek, programlanabilir genişleme ve “Pi'den istediğinizi oluşturmasını isteyin” yaklaşımının arkasındaki bağlam mühendisliği.
+> - **Claude Code** [Claude Code harness'ını nasıl oluşturuyor](../../docs/tr/harness-designs/claude-code/index.md) — dört katmanlı bellek, beş seviyeli sıkıştırma, hook'lar ve alt ajan izolasyonu.
+> - **Codex** [Codex harness'ını nasıl oluşturuyor](../../docs/tr/harness-designs/codex/index.md) — tek doğruluk kaynağı olarak kod deposu, bir dizin sayfası olarak AGENTS.md ve worktree izolasyonu.
+> - **DeepSeek** [DeepSeek harness'ını nasıl oluşturuyor](../../docs/tr/harness-designs/deepseek/index.md) — “her şey bir eklentidir”, yetenek sınırları ve bir olay işlem hattı.
+> - **15 dilin tamamı** — desteklenen tüm dillerde eksiksiz çeviri kapsamı.
+>
+> **Ana fikir:** Kurs size bir çerçeve sunar; bu incelemeler, aynı ilkelerin üretimdeki harness'larda gerçekte nasıl uygulandığını gösterir.
+>
 > **🆕 2026 Ağustos Güncellemesi: Graph Engineering (Graf Mühendisliği)** — 1 ders + 1 proje eklendi:
 >
 > - **Ders 14** [Tek Döngülerden Graf Mühendisliğine](../../docs/tr/lectures/lecture-14-graph-engineering/index.md): tek bir loop'un neden kaçınılmaz olarak bir grafa dönüştüğü — dört katmanlı yığın (prompt → context → loop → graph) ve harness'ın buradaki yeri, graf'ın dört parçası (düğümler, kenarlar, paylaşılan durum, yönlendirme), ayrıca loop içindeki kontrol noktalarının ölçekteki üç yapısal başarısızlığı (Goodhart, yukarıya körlük, çatışma) neden kurtaramadığı, framework'ten bağımsız ilk graf'ınızı kurmanın altı adımı, Graph ile Workflow arasındaki fark, çapalar, isimden önce ve sonra açık kaynak proje durumu, orkestrasyon vergisi ve ne zaman gerçekten graf çizmeye değer olduğu.
@@ -615,12 +626,6 @@ Ekibimiz başka kurslar da hazırladı! Göz atın:
 [![Hands-on Modern RL](https://img.shields.io/badge/HANDS--ON_MODERN_RL-0052cc?style=for-the-badge)](https://github.com/walkinglabs/hands-on-modern-rl)
 
 **Hands-on Modern RL**: Temel RL kavramlarından LLM hizalamasına, RLVR'ye ve ileri ajansal sistemlere uzanan boşluğu kapatan, açık kaynaklı, uygulamalı bir müfredat.
-
----
-
-## Yıldız Geçmişi
-
-[![Star History Chart](https://api.star-history.com/svg?repos=walkinglabs/learn-harness-engineering&type=date&legend=top-left)](https://www.star-history.com/#walkinglabs/learn-harness-engineering&type=date&legend=top-left)
 
 ---
 

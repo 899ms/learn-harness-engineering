@@ -22,6 +22,17 @@
 
 Learn Harness Engineering — KI kod yozuvchi agentlarini ishlab chiqishga bagʻishlangan kurs. Biz sanoatdagi Harness Engineering sohasining eng ilgʻor nazariya va amaliyotlarini chuqur oʻrganib, sintez qildik. Asosiy manbalarimiz:
 
+> **🆕 2026-yil avgust yangilanishi: Frontier Harness Design Breakdowns (Ilgʻor harness dizayni tahlillari)** — 4 ta tahlildan iborat yangi boʻlim:
+>
+> - **Yangi boʻlim** [Frontier Harness Design Breakdowns](../../docs/uz/harness-designs/index.md) — kursning besh quyi tizimli freymvorkini (koʻrsatmalar, vositalar, muhit, holat, fikr-mulohaza) qoʻllab, toʻrtta ilgʻor mahsulot haqiqiy harnessʼlarni qanday qurishini teskari muhandislik orqali tahlil qiling.
+> - **Pi** [Pi oʻz harnessʼini qanday quradi](../../docs/uz/harness-designs/pi/index.md) — minimal yadro, dasturlashtiriladigan kengaytirish va «Piʼdan xohlagan narsangizni qurishni soʻrang» tamoyili ortidagi kontekst muhandisligi.
+> - **Claude Code** [Claude Code oʻz harnessʼini qanday quradi](../../docs/uz/harness-designs/claude-code/index.md) — toʻrt qatlamli xotira, besh darajali siqish, hookʼlar va sub-agent izolyatsiyasi.
+> - **Codex** [Codex oʻz harnessʼini qanday quradi](../../docs/uz/harness-designs/codex/index.md) — repozitoriy haqiqat manbai sifatida, AGENTS.md katalog sahifasi sifatida va worktree izolyatsiyasi.
+> - **DeepSeek** [DeepSeek oʻz harnessʼini qanday quradi](../../docs/uz/harness-designs/deepseek/index.md) — «hamma narsa — plugin», imkoniyatlar chegaralari va hodisalar konveyeri.
+> - **Barcha 15 ta til** — qoʻllab-quvvatlanadigan barcha tillar uchun toʻliq tarjima qamrovi.
+>
+> **Asosiy fikr:** Kurs sizga freymvork beradi; bu tahlillar ayni tamoyillar amaldagi harnessʼlarda qanday roʻyobga chiqishini koʻrsatadi.
+>
 > **🆕 2026-yil avgust yangilanishi: Graph Engineering (Graf muhandisligi)** — 1 ta yangi maʼruza + 1 ta loyiha qoʻshildi:
 >
 > - **14-maʼruza** [Yakka loopʼdan grafik muhandisligigacha](../../docs/uz/lectures/lecture-14-graph-engineering/index.md): nima uchun yakka loop muqarrar ravishda grafikka aylanadi — toʻrt qatlamli qoʻshilish (prompt → context → loop → graph) va harnessʼning undagi oʻrni, grafikning toʻrt qismi (tugunlar, chekkalar, umumiy holat, marshrutlash), nima uchun loop ichidagi checkpointʼlar miqyosdagi uchta strukturaviy muvaffaqiyatsizlikni (Goodhart, yuqoriga qarab koʻrlilik, konflikt) qutqara olmaydi, freymvorkdan mustaqil olti qadamli birinchi grafikni qurish, Graph va Workflow oʻrtasidagi farq, anchorʼlar, eʼlondan oldingi va keyingi ochiq manbali loyihalar holati, orkestratsiya soligʼi va qachon haqiqatan grafik chizishga arzir.
@@ -618,12 +629,6 @@ Bizning jamoamiz yana boshqa kurslar ham yaratdi! Ularni koʻrib chiqing:
 [![Hands-on Modern RL](https://img.shields.io/badge/HANDS--ON_MODERN_RL-0052cc?style=for-the-badge)](https://github.com/walkinglabs/hands-on-modern-rl)
 
 **Hands-on Modern RL**: Asosiy RL konsepsiyalaridan LLM alignment, RLVR va ilgʻor agent tizimlarigacha boʻlgan masofani bridjlash uchun ochiq manbali amaliy oʻquv dasturi.
-
----
-
-## Yulduzlar tarixi
-
-[![Star History Chart](https://api.star-history.com/svg?repos=walkinglabs/learn-harness-engineering&type=date&legend=top-left)](https://www.star-history.com/#walkinglabs/learn-harness-engineering&type=date&legend=top-left)
 
 ---
 

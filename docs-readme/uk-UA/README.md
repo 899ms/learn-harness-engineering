@@ -25,13 +25,24 @@
   <img src="https://img.shields.io/badge/Projects-8-green?style=flat-square" alt="8 проєктів">
   <img src="https://img.shields.io/badge/Languages-15-yellow?style=flat-square" alt="15 мов">
   <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" alt="Ліцензія MIT">
-  <a href="https://discord.gg/XU7DQmpqk"><img src="https://img.shields.io/badge/Discord-Join_Community-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Приєднатися до спільноти в Discord"></a>
+  <a href="https://github.com/walkinglabs"><img src="https://img.shields.io/badge/Discord-Join_Community-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Приєднатися до спільноти в Discord"></a>
 </p>
 
 > 🌍 Цей курс доступний **15 мовами**: English, 简体中文, 繁體中文, 日本語, 한국어, Español, Français, Русский, Deutsch, العربية, Tiếng Việt, Oʻzbekcha, Türkçe, Portuguese (BR), Українська. Оберіть свою мову за допомогою значків вище.
 
 Learn Harness Engineering — курс, присвячений інженерії AI-агентів для написання коду. Ми ретельно вивчили та синтезували найбільш передові теорії та практики Harness Engineering в індустрії. Основні джерела:
 
+> **🆕 Оновлення за серпень 2026 р.: Розбір передових harness** — новий розділ із 4 розборами:
+>
+> - **Новий розділ** [Розбір передових harness](../../docs/uk/harness-designs/index.md) — застосуйте п'ятипідсистемний фреймворк курсу (інструкції, інструменти, середовище, стан, зворотний зв'язок), щоб методом зворотного проєктування з'ясувати, як чотири передові продукти будують справжні harness.
+> - **Pi** [Як Pi будує свій harness](../../docs/uk/harness-designs/pi/index.md) — мінімальне ядро, програмоване розширення та контекстна інженерія, що стоять за принципом «попросіть Pi створити те, що вам потрібно».
+> - **Claude Code** [Як Claude Code будує свій harness](../../docs/uk/harness-designs/claude-code/index.md) — чотирирівнева пам'ять, п'ятирівневе стиснення, hooks та ізоляція sub-agent.
+> - **Codex** [Як Codex будує свій harness](../../docs/uk/harness-designs/codex/index.md) — репозиторій як джерело істини, AGENTS.md як сторінка-каталог та ізоляція worktree.
+> - **DeepSeek** [Як DeepSeek будує свій harness](../../docs/uk/harness-designs/deepseek/index.md) — «усе є плагіном», межі можливостей та конвеєр подій.
+> - **Усі 15 мов** — повне охоплення перекладами всіма підтримуваними мовами.
+>
+> **Ключова ідея:** Курс дає вам фреймворк; ці розбори показують, як ті самі принципи насправді втілюються у виробничих harness.
+>
 > **🆕 Оновлення серпня 2026: Графова інженерія (Graph Engineering)** — додано 1 лекцію + 1 проєкт:
 >
 > - **Лекція 14** [Від одиночних циклів до графової інженерії](../../docs/uk/lectures/lecture-14-graph-engineering/index.md): чому одиночний цикл неминуче виростає в граф — чотири рівні, накладені один на одного (prompt → context → loop → graph) та місце harness у них, чотири складові графа (вузли, ребра, спільний стан, маршрутизація), чому контрольні точки всередині циклу не рятують від трьох структурних відмов у масштабі (Гудгарт, сліпота догори, конфлікт), фреймворк-незалежні шість кроків побудови вашого першого графа, різниця між Graph і Workflow, якорі, стан відкритих проєктів до та після публікації, податок на оркестрацію та коли справді варто малювати граф.
@@ -626,12 +637,6 @@ learn-harness-engineering/
 [![Modern LLM Notebook](https://img.shields.io/badge/MODERN_LLM_NOTEBOOK-0052cc?style=for-the-badge)](https://github.com/walkinglabs/modern-llm-notebook)
 
 **Modern LLM Notebook**: Практичний курс із побудови сучасних LLM з нуля на PyTorch, включаючи 23 запускабельних Jupyter Notebooks з темами токенізаторів, уваги, MoE, RLHF, висновку, оцінювання та дистиляції.
-
----
-
-## Історія зірок
-
-[![Star History Chart](https://api.star-history.com/svg?repos=walkinglabs/learn-harness-engineering&type=date&legend=top-left)](https://www.star-history.com/#walkinglabs/learn-harness-engineering&type=date&legend=top-left)
 
 ---
 
